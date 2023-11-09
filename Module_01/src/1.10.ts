@@ -1,7 +1,7 @@
 // Union Type
 {
   const myMulti = (x: number, y: string | number): number | string => x * y;
-  let result = myMulti(5, "5");
+  let result = myMulti(5, 5);
   console.log(result);
 
   type FrontedDev = "Normal developer" | "Strong developer";
